@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no"/>
+    <link rel="shortcut icon" href="../images/favicon.ico" />
+    <link rel="apple-touch-icon" href="../images/favicon.ico" />
+    <link rel="stylesheet" href="../css/bootstrap.css" media="screen" />
+    <link rel="stylesheet" href="../css/costom.css" />
+    <link rel="stylesheet" href="//www.seoul.go.kr/seoulgnb/seoul-common-gnb.css" media="all" />
+
+    <title>서울시 사업자용 통합(사설) 인증관리</title>
+  </head>
+  <body>
+    <div class="skipNavi"><a href="#content">본문 바로가기</a></div>
+    <div class="wrap">
+      <header class="header">
+        <div class="header-toolbar" style="box-sizing: content-box;">
+          <div class="header-toolbar-wrap" style="padding: 0;">
+            <div id="seoul-common-gnb">
+              <div id="seoul-gnb-plugin" class="white" style="background-color: white;">
+                <div class="seoul-gnb-holder" style="max-width: 1200px;">
+                  <p class="seoul-gnb-link">
+                    <a href="//www.seoul.go.kr/sgnb/seoulgnblog.do?gid=G135&amp;kind=logo&amp;link=https://www.seoul.go.kr" target="_blank" title="새창열림" class="seoul-gnb-icon-link wise-link" data-kind="logo">서울특별시</a>
+                  </p>
+                  <dl class="seoul-gnb-news">
+                    <dt><a href="https://www.seoul.go.kr/realmnews/in/list.do" target="_blank" title="새창열림(서울소식)" class="seoul-gnb-icon-notice">서울소식</a></dt>
+                    <dd>
+                      <a href="//www.seoul.go.kr/sgnb/seoulgnblog.do?gid=G135&amp;kind=hotissue&amp;link=http://news.seoul.go.kr/economy/archives/506089" target="_blank" title="새창열림"
+                        >2020년 함께서울 친환경농장 가꾸기 참여시민 모집 안내</a>
+                    </dd>
+                  </dl>
+                  <dl class="seoul-gnb-menu" style="background-color: white;">
+                    <dt>주요메뉴</dt>
+                    <dd>
+                      <a href="//www.seoul.go.kr/sgnb/seoulgnblog.do?gid=G135&amp;kind=seoulnews&amp;link=https://www.seoul.go.kr/realmnews/in/list.do" target="_blank" title="새창열림" class="seoul-gnb-icon-menu1 wise-link" data-kind="seoulnews">서울소식</a>
+                    </dd>
+                    <dd>
+                      <a href="//www.seoul.go.kr/sgnb/seoulgnblog.do?gid=G135&amp;kind=eungdapso&amp;link=http://eungdapso.seoul.go.kr" target="_blank" title="새창열림" class="seoul-gnb-icon-menu2 wise-link" data-kind="eungdapso">응답소</a>
+                    </dd>
+                    <dd>
+                      <a href="//www.seoul.go.kr/sgnb/seoulgnblog.do?gid=G135&amp;kind=opengov&amp;link=http://opengov.seoul.go.kr" target="_blank" title="새창열림" class="seoul-gnb-icon-menu3 wise-link" data-kind="opengov">정보공개</a>
+                    </dd>
+                    <dd>
+                      <button type="button" class="seoul-gnb-icon-menu4">분야별정보</button>
+                      <div class="seoul-gnb-menu-section" style="display: none;">
+                        <dl>
+                          <dt>분야별정보</dt>
+                          <dd>
+                            <ul>
+                              <li>
+                                <a href="//www.seoul.go.kr/sgnb/seoulgnblog.do?gid=G135&amp;kind=citybuild&amp;link=http://news.seoul.go.kr/citybuild/" target="_blank" title="새창열림" class="wise-link" data-kind="citybuild" >주택</a >
+                              </li>
+                              <li>
+                                <a href="//www.seoul.go.kr/sgnb/seoulgnblog.do?gid=G135&amp;kind=economy&amp;link=http://news.seoul.go.kr/economy/" target="_blank" title="새창열림" class="wise-link" data-kind="economy">경제</a>
+                              </li>
+                              <li>
+                                <a href="//www.seoul.go.kr/sgnb/seoulgnblog.do?gid=G135&amp;kind=traffic&amp;link=http://news.seoul.go.kr/traffic/" target="_blank" title="새창열림" class="wise-link" data-kind="traffic">교통</a>
+                              </li>
+                              <li>
+                                <a href="//www.seoul.go.kr/sgnb/seoulgnblog.do?gid=G135&amp;kind=env&amp;link=http://news.seoul.go.kr/env/" target="_blank" title="새창열림" class="wise-link" data-kind="env">환경</a>
+                              </li>
+                              <li>
+                                <a href="//www.seoul.go.kr/sgnb/seoulgnblog.do?gid=G135&amp;kind=welfare&amp;link=http://news.seoul.go.kr/welfare/" target="_blank" title="새창열림" class="wise-link"
+                                  data-kind="welfare">복지</a>
+                              </li>
+                              <li>
+                                <a                                  href="//www.seoul.go.kr/sgnb/seoulgnblog.do?gid=G135&amp;kind=safe&amp;link=http://news.seoul.go.kr/safe/" target="_blank" title="새창열림" class="wise-link"    data-kind="safe">안전</a>
+                              </li>
+                              <li>
+                                <a href="//www.seoul.go.kr/sgnb/seoulgnblog.do?gid=G135&amp;kind=culture&amp;link=http://news.seoul.go.kr/culture/" target="_blank" title="새창열림" class="wise-link" data-kind="culture">문화</a>
+                              </li>
+                              <li>
+                                <a href="//www.seoul.go.kr/sgnb/seoulgnblog.do?gid=G135&amp;kind=gov&amp;link=http://news.seoul.go.kr/gov/" target="_blank" title="새창열림" class="wise-link" data-kind="gov">행정</a>
+                              </li>
+                            </ul>
+                          </dd>
+                        </dl>
+                        <p>
+                          <a href="//www.seoul.go.kr/sgnb/seoulgnblog.do?gid=G135&amp;kind=allservice&amp;link=https://www.seoul.go.kr/service/all.do"
+                            target="_blank" title="새창열림" class="wise-link" data-kind="allservice"><span class="seoul-gnb-icon-service"></span> 서비스 전체보기</a>
+                        </p>
+                        <button type="button">
+                          <span class="seoul-gnb-icon-service-close"></span
+                          ><span class="hd-element">분야별 정보 닫기</span>
+                        </button>
+                      </div>
+                    </dd>
+                  </dl>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="nav-wrap">
+          <nav class="navbar navbar-expand-lg bg-white">
+            <p class="mobile-seoul-logo">
+              <a href="//www.seoul.go.kr/sgnb/seoulgnblog.do?gid=G135&amp;kind=logo&amp;link=https://www.seoul.go.kr" target="_blank" title="새창열림" class="seoul-gnb-icon-link wise-link" data-kind="logo">서울특별시</a>
+            </p>
+            <h1 class="header-logo">
+              <a href="../main.html"><img src="/images/logo.png" alt="서울시 사업자용 통합(사설) 인증관리"></a>
+            </h1>
+            <button class="navbar-toggler navbar-toggle collapsed" type="button"data-toggle="slide-collapse" data-target="#slide-navbar-collapse" aria-expanded="false">
+              <span class="hide">메뉴 열기</span>
+            </button>
+            <div class="collapse navbar-collapse align-center" id="slide-navbar-collapse">
+              <!-- 모바일 전용 버튼 -->
+              <div class="state-login">
+                <a class="btn home" href="/"><span>홈</span></a>
+                <a class="btn login" href="#"><span>로그인</span></a>
+                <a class="btn logout" href="#" style="display: none;"><span>로그아웃</span></a>
+                <a class="btn close" href="#"><span class="hide">메뉴닫기</span></a>
+              </div>
+              <!-- //모바일 전용 버튼 -->
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a href="operator-info/operator_info.html" class="nav-link link">사업자정보</a>                  
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link link">사용자관리</a>                 
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link link">인증내역</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link link">공지사항</a>
+                </li>
+              </ul>
+              <div class="navbar-buttons mbr-section-btn">
+                <a class="btn btn-sm header-login" href="#"><span>로그인</span></a>
+                <a class="btn btn-sm header-login out" href="#" style="display: none;"><span>로그아웃</span></a>
+              </div>
+              <!-- 모바일 전용 버튼 -->
+              <div class="btn-privacy">
+                <a class="btn privacy" href="#">개인정보처리방침</a>
+              </div>
+              <!-- //모바일 전용 버튼 -->
+            </div>
+            <div class="menu-overlay"></div> 
+          </nav>  
+                 
+        </div>
+      </header>
+      <div class="content" id="content">
+        <section class="main-section">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-lg-6">
+                <h2 class="site-headline font-weight-bold">서울시 사업자용<br> 통합(사설)인증이란?</h2>
+                <div class="site-tagline">기존 공인인증서 대비 사업자용 인증서를 <span>안전한 저장소에 보관</span>하고,<br> <span>짧은 유효기간</span>으로 인해 갱신의 번거로움 줄일 수 있는<br> <span>새로운 사설인증 서비스</span>입니다.</div>
+                <div class="cta-btns">
+                  <a class="btn btn-type01" href="pricing.html">사업자용 인증서 알아보기</a>
+                </div>
+              </div>
+            </div><!--//row-->
+          </div>
+        </section>
+        <section class="main-section-link theme-bg-light">
+          <div class="container">
+            <div class="row">
+              <div class="item col-6 col-md-3 col-lg-3">
+                <div class="item-inner rounded operator-apply">
+                  <a href="#">
+                    <span class="title">사업자 사용신청</span>
+                    <em>사업자용 인증서<br> 발급을 위해<br> 사업자 사용신청을 합니다.</em>
+                  </a>
+                </div>
+              </div>
+              <div class="item col-6 col-md-3 col-lg-3">
+                <div class="item-inner rounded operator-info">
+                  <a href="#">
+                    <span class="title">사업자정보 확인</span>
+                    <em>사업자 사용신청 정보를<br> 확인하고 서비스 이용을 위한<br> 설정을 합니다.</em>
+                  </a>
+                </div>
+              </div>
+              <div class="item col-6 col-md-3 col-lg-3">
+                <div class="item-inner rounded user-management">
+                  <a href="#">
+                    <span class="title">사용자관리</span>
+                    <em>인증서 발급할 사용자를<br> 등록하고 이용하지 않는<br> 사용자는 인증서를 폐기합니다.</em>
+                  </a>
+                </div>
+              </div>
+              <div class="item col-6 col-md-3 col-lg-3">
+                <div class="item-inner rounded certification-confirm">
+                  <a href="#">
+                    <span class="title">인증내역 확인</span>
+                    <em>사업자용 인증서<br> 사용내역을<br> 확인합니다.</em>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="main-notice">
+          <div class="container">
+            <h3 class="font-weight-bold">공지사항</h3>
+            <ul>
+              <li>
+                <a href="#"><span>사이트 이용 방법 안내</span></a>
+                <em class="date">2020.05.21</em>
+              </li>
+              <li>
+                <a href="#"><span>[공지]서울시 사업자용 통합(사설) 인증서 오픈 안내</span></a>
+                <em class="date">2020.05.21</em>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="operator-title">
+          <div class="container">
+            <h3 class="text-center font-weight-bold">사업자용 통합(사설) 인증서 발급</h3>
+            <p class="font-weight-bold">사업자용 인증서 발급을 통해 위ㆍ변조 방지, 부인방지 등 <span>전자서명</span>이 필요한 전자계약, <span>본인인증</span>이 필요한 로그인 서비스에 이용하실 수 있습니다.</p>
+            <div class="operator-step">
+              <ul>
+                <li class="step-operator-apply">
+                  <h4><em>01.</em>사업자 사용신청</h4>
+                  <p>사업자 및 관리자 정보를 등록합니다.</p>
+                </li>
+                <li class="step-operator-info">
+                  <h4><em>02.</em>사업자 자격확인</h4>
+                  <p>행정정보공동이용 서비스를 통해 사업자의 자격을 확인합니다.</p>
+                </li>
+                <li class="step-user-management">
+                  <h4><em>03.</em>신청자 본인인증</h4>
+                  <p>서울시민카 App 개인용 PC통합인증을 통해 본인임을 확인합니다.</p>
+                </li>
+                <li class="step-management-judge">
+                  <h4><em>04.</em>신청완료 및 심사</h4>
+                  <p>접수된 신청정보를 서울시 담당자가 확인을 합니다.</p>
+                </li>
+                <li class="step-certificate-issue">
+                  <h4><em>05.</em>신청자 인증서 발급</h4>
+                  <p>심사가 완료된 신청자는 서울시민카드 App에서 사업자용 인증서를 발급합니다.</p>
+                </li>
+                <li class="step-management-add">
+                  <h4><em>06.</em>추가 사용자 관리 및 인증서 발급</h4>
+                  <p>사업자 인증서가 필요한 사용자를 추가 등록하고
+                    본인확인 된 추가 사용자는 서울시민카드 App에서 사업자용 인증서를 발급합니다.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        
+      </div>
+      <footer class="footer">
+        <div class="footer-info">
+          <dl>
+              <dt><span class="hide">I SEOUL U</span></dt>
+              <dd>
+                  <address>
+                      <span>서울특별시청 04524 서울특별시 중구 세종대로 110</span>
+                      <span>대표전화 : 02-0000-0000</span>
+                      <span>대표 이메일 : 00000@seoul.go.kr</span>
+                      <span>© Seoul Metropolitan Government all rights reserved</span>
+                  </address>
+              </dd>
+              <dd>
+                <a href="#">개인정보처리방침</a>
+              </dd>
+          </dl>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/custom.js"></script>
+  </body>
+</html>
